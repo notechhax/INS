@@ -4,7 +4,7 @@
 NAxisMotion mySensor;           //Object that for the sensor
 int cardinal;                 //Variable to store current Cardinal direction
 //float travel;                   //variable to hold current direction of travel
-cardinal = constrain(carindal, 0, 360);      //limits cardinal to between 0 and 360
+cardinal = constrain(cardinal, 0, 360);      //limits cardinal to between 0 and 360
 bool left=false;                //variable to indicate vessel should turn to port
 bool right=false;               //variable to indicate vessel should turn to starboard
 
