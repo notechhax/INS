@@ -29,9 +29,9 @@ void setup(){
   Serial.begin(9600);
 }
   
-void loop(){
-{int GetNumber()
-
+//void loop(){
+int GetNumber()
+{
    //int num = 0;
   int   key = customKeypad.getKey();
    switch (key)
@@ -52,7 +52,7 @@ void loop(){
 
     
    }
-}
+//}
 DW = GetNumber();   //gets the degrees latitude
 MW = GetNumber();   //gets the minutes latitude
   MW = MW/60;       //converts minutes to decimal degreees
@@ -67,4 +67,3 @@ SN = GetNumber();   //gets the seconds longitude
 DN = MN + SN;       //adds all the decimals together
 
   }
-
